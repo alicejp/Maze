@@ -39,4 +39,16 @@ public class Player : MonoBehaviour
     {
         GetComponent<Rigidbody>().velocity = new Vector3(0, 0, Input.GetAxis("Vertical"));
     }
+
+    private void OnTriggerEnter(Collider other) 
+    {
+        if (other.tag == "hasHint")
+        {
+            Debug.Log("Show the messaage");
+        }
+        else
+        {
+            Debug.Log("Do nothing");
+        }
+    }
 }
