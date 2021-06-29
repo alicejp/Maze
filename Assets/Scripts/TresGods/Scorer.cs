@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Scorer : MonoBehaviour
 {
-    [SerializeField] bool shouldShowFirstHint = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class Scorer : MonoBehaviour
     {
         if (other.gameObject.tag == "hasHint")
         {
-            shouldShowFirstHint = true;
+            FindObjectOfType<MessageManager>().ShouldShowFirstHint = true;
             return;
         }
     }
