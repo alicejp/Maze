@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - hasHint
+  - hasLetter
+  - Poseidon
+  - Hera
+  - Ares
+  - firstQuizCube
   layers:
   - Default
   - TransparentFX

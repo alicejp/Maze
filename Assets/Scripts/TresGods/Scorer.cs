@@ -20,9 +20,9 @@ public class Scorer : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "hasHint")
+        if (other.gameObject.tag == "hasLetter")
         {
-            FindObjectOfType<MessageManager>().ShouldShowFirstHint = true;
+            FindObjectOfType<MessageManager>().ShouldShowTheLetter = true;
             return;
         }
     }
