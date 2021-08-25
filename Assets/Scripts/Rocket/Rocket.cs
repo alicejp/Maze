@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+///This Rocket class is the main player in the Labyrinth Scene
 public class Rocket : MonoBehaviour
 {
     public float speed = 10f;

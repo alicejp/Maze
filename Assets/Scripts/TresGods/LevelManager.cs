@@ -44,7 +44,7 @@ public class LevelManager : MonoBehaviour
     private void GoBackToMainScene()
     {
         GameControl.control.firstQuizSolved = true;
-        SceneManager.LoadScene("RocketScene");
+        SceneManager.LoadScene("LabyrinthScene");
     }
 }
 

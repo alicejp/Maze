@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class QuizCube : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         if (GameControl.control.firstQuizSolved && tag == "firstQuizCube")
@@ -14,7 +13,6 @@ public class QuizCube : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
